@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>soul — il rosario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" type="image/png" href="/soul/soulfavicon.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="/soul/soulfavicon_dark.png" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" sizes="180x180" href="/soul/apple-touch-icon.png">
+
+    <style>
+      :root {
+        --bg: #ffffff;
+        --fg: #111111;
+        --link: #005bff;
+
+        --mark-light: rgba(255, 241, 118, 0.9);
+        --mark-dark: rgba(255, 235, 59, 0.9);
+        --quote-fg: #555;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #000000;
+          --fg: #ffffff;
+          --link: #8fc9ed;
+          --quote-fg: #bbb;
+        }
+      }
+
+      html, body { height: 100%; }
+      html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+        line-height: 1.35;
+        -webkit-font-smoothing: antialiased;
+        padding: 16px;
+        padding-bottom: 120px;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        body {
+          font-size: 12.6px;
+        }
+      }
+
+      a, a:visited {
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      a:hover { text-decoration: underline; }
+
+      pre {
+        margin: 0;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      mark {
+        background: none;
+        color: inherit;
+        padding: 0 2px;
+        background-image: linear-gradient(
+          transparent 62%,
+          var(--mark-light) 62%
+        );
+      }
+
+      @media (prefers-color-scheme: dark) {
+        mark {
+          background: none;
+          padding: 0;
+          color: var(--fg);
+          text-decoration: underline;
+          text-decoration-thickness: 2px;
+          text-underline-offset: 0.15em;
+          text-decoration-color: var(--mark-dark);
+        }
+      }
+
+      .quote {
+        color: var(--quote-fg);
+      }
+
+      .counter {
+        color: #767676;
+        font-size: 0.8em;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .counter {
+          color: #999;
+        }
+      }
+
+      main {
+        max-width: 900px;
+      }
+
+      .question {
+        margin: 48px 0;
+      }
+
+      .question-title {
+        margin: 0 0 10px 0;
+      }
+
+      .q-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        gap: 8px 28px;
+        align-items: start;
+      }
+
+      @media (max-width: 640px) {
+        .q-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .explain {
+        margin: 0;
+      }
+
+      .verses {
+        margin: 0;
+      }
+
+      .verse-item {
+        margin: 0 0 14px 0;
+      }
+
+      .verse-item:last-child {
+        margin-bottom: 0;
+      }
+
+      .verse-quote {
+        display: block;
+        color: var(--quote-fg);
+        font-size: 0.85em;
+        margin-top: 2px;
+      }
+    
+      details { margin: 0; }
+      summary { cursor: pointer; list-style: none; color: var(--link); }
+      summary::-webkit-details-marker { display: none; }
+      summary::before { content: "+ "; }
+      details[open] > summary::before { content: "- "; }
+      .set > .body { padding: 6px 0 14px 2ch; }
+      .mys { margin: 10px 0 18px; }
+      .mys .title { font-weight: bold; }
+      .alt { margin: 6px 0 0 2ch; }
+      .alt > .body { padding: 4px 0 8px 2ch; color: var(--quote-fg); }
+      .today { color: var(--quote-fg); }
+    </style>
+  </head>
+
+  <body>
+<pre>
+guida | il rosario
+↳ <a href="index.html">torna all'indice</a>
+↳ <a href="https://ivana-rep.github.io/soul/the-rosary.html" target="_blank">en</a> // it
+
+il rosario è una preghiera che si dice sui grani di una corona. mentre poche preghiere brevi si ripetono, si attraversa la vita di Gesù una scena alla volta, dall'annuncio dell'angelo a Maria fino alla Risurrezione, con Maria accanto. Giovanni Paolo II lo ha chiamato "compendio del Vangelo": venti scene brevi che insieme contengono tutta la storia.
+
+per cominciare non serve sapere molto.
+
+→ perché la ripetizione
+
+dieci ave Maria di fila possono sembrare noiose. Giovanni Paolo II risponde con un'immagine presa dall'amore: chi ama dice "ti amo" tante volte, e non è mai uguale, perché il sentimento che c'è dietro è vivo. le parole restano le stesse così il cuore non deve cercarne di nuove, e può restare su di Lui.
+
+ma Gesù non dice di non ripetere le parole? in Matteo 6:7 dice: «pregando, non sprecate parole come i pagani: essi credono di venire ascoltati a forza di parole». quello che critica sono le parole vuote, accumulate per convincere Dio a forza di insistere. la ripetizione in sé non la vieta: nel Getsèmani pregò per la terza volta «ripetendo le stesse parole» (Matteo 26:44). il Salmo 136 ripete «perché il Suo amore è per sempre» ventisei volte, e in Apocalisse 4:8 gli esseri viventi «giorno e notte non cessano di ripetere: santo, santo, santo». il Catechismo (2668) dice che un nome «ripetuto spesso da un cuore umilmente attento, non si disperde in "tante parole"». il rosario diventa ripetizione vuota solo quando il cuore è altrove.
+
+→ cosa serve
+
+una corona. si può contare sulle dita, ma tenere qualcosa in mano aiuta: i grani tengono occupate le mani e dicono a che punto sei, così non devi contare.
+
+come sono disposti i grani:
+crocifisso        segno della croce, credo
+1 grano grande    padre nostro
+3 grani piccoli   ave Maria
+poi un giro di cinque decine, ognuna:
+1 grano grande    padre nostro
+10 grani piccoli  ave Maria
+
+i grani riportano tutti al crocifisso, da cui la preghiera parte e a cui ritorna. Giovanni Paolo II ci legge un'immagine della vita cristiana: tutto parte da Cristo e riporta a Lui.
+
+→ passo per passo
+
+1. fai il segno della croce.
+2. tenendo il crocifisso, recita il credo.
+3. sul primo grano grande, un padre nostro.
+4. su ciascuno dei tre grani successivi, un'ave Maria.
+5. un gloria al Padre.
+6. poi, per ognuna delle cinque decine:
+   annuncia il mistero e leggi il suo brano (qui sotto)
+   un padre nostro sul grano grande
+   un'ave Maria su ciascuno dei dieci grani piccoli
+   un gloria al Padre
+   la preghiera di Fatima, se vuoi
+7. dopo la quinta decina, la salve regina e la preghiera finale, poi il segno della croce.
+
+→ ogni decina, con calma
+
+i passi qui sopra sono solo la cornice. la preghiera vera succede dentro ogni decina, e Giovanni Paolo II spiega come:
+* annuncia il mistero e immagina la scena: il luogo, le persone, cosa sta succedendo.
+* leggi il breve brano che lo accompagna.
+* resta in silenzio un momento prima di cominciare le parole.
+* di' le ave Maria senza correre. al centro di ognuna c'è il nome di Gesù, che Giovanni Paolo II chiama "il baricentro" della preghiera. se la mente si distrae, torna alla scena, non al conteggio.
+* non devi tenere a mente tutto insieme, il mistero, le parole e le tue intenzioni. la cosa principale è stare con Lui. puoi chiederGli: "cosa mi stai dicendo?"
+* alla fine chiedi la grazia a cui quel mistero rimanda (il suo "frutto", indicato sotto ciascuno).
+
+→ i misteri e i loro giorni
+
+lunedì, sabato       gioia
+martedì, venerdì     dolore
+mercoledì, domenica  gloria
+giovedì              luce
+
+nelle domeniche di Avvento molti pregano i misteri della gioia, nelle domeniche di Quaresima quelli del dolore. i misteri di oggi sono segnati qui sotto. ogni mistero ha un breve brano della Scrittura (quelli proposti dai vescovi statunitensi) e la grazia da chiedere.
+
+santuari e trasmissioni leggono testi diversi a ogni mistero, ed è normale: la Chiesa fissa i misteri e le preghiere, mentre la lettura la sceglie chi guida. sotto alcuni misteri trovi anche i testi del rosario con padre Pio e di una trasmissione di TV2000.
+
+
+<details class="set" data-set="joyful"><summary>↳ misteri della gioia <span class="counter">// lunedì e sabato</span><span class="today"></span></summary><div class="body"><div class="mys"><span class="title">1. l'annuncio dell'angelo a Maria</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/1/" target="_blank">Luca 1:26-27</a>
+<span class="counter" id="v26">26</span> al sesto mese, l'angelo Gabriele fu mandato da Dio in una città della Galilea, chiamata Nàzaret,
+<span class="counter" id="v27">27</span> a una vergine, promessa sposa di un uomo della casa di Davide, di nome Giuseppe.
+la vergine si chiamava Maria.
+<span class="counter">frutto: umiltà</span><details class="alt"><summary>con padre Pio</summary><div class="body">quanto più le grazie e i favori di Gesù crescono nell'anima vostra tanto maggiormente dovete umiliarvi, tenendo sempre voi l'umiltà della nostra celeste Madre, la quale nell'istante che diviene Madre di Dio, si dichiara serva ed ancella del medesimo Iddio. (epistolario III, 50)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div><div class="mys"><span class="title">2. la visita di Maria a Elisabetta</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/1/" target="_blank">Luca 1:39-42</a>
+<span class="counter" id="v39">39</span> in quei giorni Maria si alzò e andò in fretta verso la regione montuosa, in una città di Giuda.
+<span class="counter" id="v40">40</span> entrata nella casa di Zaccaria, salutò Elisabetta.
+<span class="counter" id="v41">41</span> appena Elisabetta ebbe udito il saluto di Maria, il bambino sussultò nel suo grembo.
+Elisabetta fu colmata di Spirito Santo
+<span class="counter" id="v42">42</span> ed esclamò a gran voce: «benedetta tu fra le donne e benedetto il frutto del tuo grembo!»
+<span class="counter">frutto: amore del prossimo</span><details class="alt"><summary>con padre Pio</summary><div class="body">unico vostro pensiero sia quello di amare Dio e crescere sempre più nella virtù e nella carità santa, ch'è il vincolo della perfezione cristiana. (epistolario II, 369)
+
+la vera grandezza dell'anima consiste nell'amare Dio e nell'umiltà. (Gesù a santa Faustina)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div><div class="mys"><span class="title">3. la nascita di Gesù a Betlemme</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/2/" target="_blank">Luca 2:1-7</a>
+<span class="counter" id="v1">1</span> in quei giorni un decreto di Cesare Augusto ordinò che si facesse il censimento di tutta la terra.
+<span class="counter" id="v2">2</span> questo primo censimento fu fatto quando Quirinio era governatore della Siria.
+<span class="counter" id="v3">3</span> tutti andavano a farsi censire, ciascuno nella propria città.
+<span class="counter" id="v4">4</span> anche Giuseppe, dalla Galilea, dalla città di Nàzaret, salì in Giudea alla città di Davide chiamata Betlemme: egli apparteneva infatti alla casa e alla famiglia di Davide.
+<span class="counter" id="v5">5</span> doveva farsi censire insieme a Maria, sua sposa, che era incinta.
+<span class="counter" id="v6">6</span> mentre si trovavano in quel luogo, si compirono per lei i giorni del parto.
+<span class="counter" id="v7">7</span> diede alla luce il suo figlio primogenito, Lo avvolse in fasce e Lo pose in una mangiatoia, perché per loro non c'era posto nell'alloggio.
+<span class="counter">frutto: povertà di spirito</span><details class="alt"><summary>con padre Pio</summary><div class="body">oh! prostriamoci innanzi al presepe e con il grande san Girolamo, il santo infiammato di amore a Gesù Bambino, offriamoGli tutto il nostro cuore senza riserva, e promettiamoGli di seguire gli insegnamenti che giungono a noi dalla grotta di Betlemme, che ci predicano essere tutto quaggiù vanità delle vanità, non altro che vanità. (epistolario IV, 973)
+
+«vanità delle vanità, tutto è vanità», fuorché amare Dio e servirLo. (imitazione di Cristo)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div><div class="mys"><span class="title">4. la presentazione di Gesù al tempio</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/2/" target="_blank">Luca 2:21-24</a>
+<span class="counter" id="v21">21</span> quando furono compiuti gli otto giorni prescritti per la circoncisione, Gli fu messo nome Gesù, come era stato chiamato dall'angelo prima che fosse concepito nel grembo.
+<span class="counter" id="v22">22</span> quando furono compiuti i giorni della loro purificazione rituale, secondo la legge di Mosè, portarono il bambino a Gerusalemme per presentarlo al Signore
+<span class="counter" id="v23">23</span> (come è scritto nella legge del Signore: ogni maschio primogenito sarà sacro al Signore)
+<span class="counter" id="v24">24</span> e per offrire in sacrificio una coppia di tortore o due giovani colombi, come prescrive la legge del Signore.
+<span class="counter">frutto: purezza di cuore e di corpo</span><details class="alt"><summary>con padre Pio</summary><div class="body">Gesù si compiace comunicarsi alle anime semplici; sforziamoci di fare acquisto di questa bella virtù, abbiamola in gran pregio. Gesù disse: «se non vi fate come i fanciulli, non entrerete nel Regno dei cieli». ma prima d'insegnarlo a noi colle parole l'aveva praticata Lui stesso col fatto. si fece bambino e ci diede l'esempio di quella semplicità che poi avrebbe insegnato anche colle parole. (epistolario I, 606)
+
+mia buona Madre, abbi pietà di me; io mi dono tutta a te affinché tu mi doni al tuo caro Figlio che io voglio amare con tutto il mio cuore. mia buona Madre, dammi un cuore che bruci d'amore per Gesù. (santa Bernadette)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div><div class="mys"><span class="title">5. il ritrovamento di Gesù nel tempio</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/2/" target="_blank">Luca 2:41-47</a>
+<span class="counter" id="v41">41</span> i Suoi genitori si recavano ogni anno a Gerusalemme per la festa di Pasqua.
+<span class="counter" id="v42">42</span> quando Egli ebbe dodici anni, vi salirono secondo la consuetudine della festa.
+<span class="counter" id="v43">43</span> ma, trascorsi i giorni, mentre riprendevano la via del ritorno, il fanciullo Gesù rimase a Gerusalemme, senza che i genitori se ne accorgessero.
+<span class="counter" id="v44">44</span> credendo che Egli fosse nella comitiva, fecero una giornata di viaggio e poi si misero a cercarLo tra i parenti e i conoscenti;
+<span class="counter" id="v45">45</span> non avendoLo trovato, tornarono in cerca di Lui a Gerusalemme.
+<span class="counter" id="v46">46</span> dopo tre giorni Lo trovarono nel tempio, seduto in mezzo ai maestri, mentre li ascoltava e li interrogava.
+<span class="counter" id="v47">47</span> e tutti quelli che L'udivano erano pieni di stupore per la Sua intelligenza e le Sue risposte.
+<span class="counter">frutto: devozione a Gesù</span><details class="alt"><summary>con padre Pio</summary><div class="body">non sia mai, o caro Gesù, che io perda un sì prezioso tesoro quale Voi siete per me. mio Signore e mio Dio, troppo viva è nella mia anima quella ineffabile dolcezza che piove dai Vostri occhi. come potrà essere lenito lo strazio del mio cuore, il sapersi lontano da Voi? assai bene conosce l'anima mia quale terribile battaglia fu la mia, quando Voi, o mio diletto, da me Vi nascondeste! (epistolario I, 675)
+
+recita sempre bene il rosario; non lo farai mai invano. (santa Bernadette)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div></div></details><details class="set" data-set="luminous"><summary>↳ misteri della luce <span class="counter">// giovedì</span><span class="today"></span></summary><div class="body"><div class="mys"><span class="title">1. il battesimo di Gesù al Giordano</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Mt/3/" target="_blank">Matteo 3:16-17</a>
+<span class="counter" id="v16">16</span> appena battezzato, Gesù uscì dall'acqua: ed ecco, si aprirono per Lui i cieli ed Egli vide lo Spirito di Dio discendere come una colomba e venire sopra di Lui.
+<span class="counter" id="v17">17</span> ed ecco una voce dal cielo che diceva: «questi è il Figlio Mio, l'amato: in Lui ho posto il Mio compiacimento».
+<span class="counter">frutto: docilità allo Spirito Santo</span></div><div class="mys"><span class="title">2. le nozze di Cana</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Gv/2/" target="_blank">Giovanni 2:1-5</a>
+<span class="counter" id="v1">1</span> il terzo giorno vi fu una festa di nozze a Cana di Galilea e c'era la madre di Gesù.
+<span class="counter" id="v2">2</span> fu invitato alle nozze anche Gesù con i Suoi discepoli.
+<span class="counter" id="v3">3</span> venuto a mancare il vino, la madre di Gesù Gli disse: «non hanno vino».
+<span class="counter" id="v4">4</span> e Gesù le rispose: «donna, che vuoi da Me? non è ancora giunta la Mia ora».
+<span class="counter" id="v5">5</span> Sua madre disse ai servitori: «qualsiasi cosa vi dica, fatela».
+<span class="counter">frutto: a Gesù per mezzo di Maria</span></div><div class="mys"><span class="title">3. l'annuncio del Regno di Dio con l'invito alla conversione</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Mc/1/" target="_blank">Marco 1:15</a>
+<span class="counter" id="v15">15</span> e diceva: «il tempo è compiuto e il Regno di Dio è vicino; convertitevi e credete nel Vangelo».
+<span class="counter">frutto: conversione</span></div><div class="mys"><span class="title">4. la trasfigurazione di Gesù</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Mt/17/" target="_blank">Matteo 17:1-2</a>
+<span class="counter" id="v1">1</span> sei giorni dopo, Gesù prese con Sé Pietro, Giacomo e Giovanni suo fratello e li condusse in disparte, su un alto monte.
+<span class="counter" id="v2">2</span> e fu trasfigurato davanti a loro: il Suo volto brillò come il sole e le Sue vesti divennero candide come la luce.
+<span class="counter">frutto: desiderio di santità</span></div><div class="mys"><span class="title">5. l'istituzione dell'Eucaristia</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Mt/26/" target="_blank">Matteo 26:26</a>
+<span class="counter" id="v26">26</span> ora, mentre mangiavano, Gesù prese il pane, recitò la benedizione, lo spezzò e, mentre lo dava ai discepoli, disse: «prendete, mangiate: questo è il Mio corpo».
+<span class="counter">frutto: adorazione</span></div></div></details><details class="set" data-set="sorrowful"><summary>↳ misteri del dolore <span class="counter">// martedì e venerdì</span><span class="today"></span></summary><div class="body"><div class="mys"><span class="title">1. Gesù nell'orto degli ulivi</span>
+<a href="post.html?p=bible/matthew_26-36-46.txt">Matteo 26:36-39</a>
+<span class="counter" id="v36">36</span> allora Gesù andò con loro in un podere, chiamato Getsèmani, e disse ai discepoli: «sedetevi qui, mentre Io vado là a pregare».
+<span class="counter" id="v37">37</span> e, presi con Sé Pietro e i due figli di Zebedeo, cominciò a provare tristezza e angoscia.
+<span class="counter" id="v38">38</span> e disse loro: «la Mia anima è triste fino alla morte; restate qui e vegliate con Me».
+<span class="counter" id="v39">39</span> andò un poco più avanti, cadde faccia a terra e pregava, dicendo: «Padre Mio, se è possibile, passi via da Me questo calice!
+però non come voglio Io, ma come vuoi Tu!».
+<span class="counter">frutto: obbedienza alla volontà di Dio</span><details class="alt"><summary>con padre Pio</summary><div class="body">procura di conformarti sempre e in tutto alla volontà di Dio, in ogni evento, e non temere. questa conformità è la via sicura per arrivare al cielo. (epistolario III, 448)
+
+l'anima che mi è più cara è quella che compie fedelmente la volontà di Dio. (la Madonna a santa Faustina)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div><div class="mys"><span class="title">2. Gesù flagellato alla colonna</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Mt/27/" target="_blank">Matteo 27:26</a>
+<span class="counter" id="v26">26</span> allora rimise in libertà per loro Barabba e, dopo aver fatto flagellare Gesù, Lo consegnò perché fosse crocifisso.
+<span class="counter">frutto: mortificazione</span><details class="alt"><summary>con padre Pio</summary><div class="body">diciamo a noi stessi con la piena convinzione di dire la verità: anima mia, incomincia oggi ad operare il bene, ché nulla hai fatto fin qui. facciamo sì che ci moviamo alla presenza di Dio. Dio mi vede, ripetiamo spesso a noi stessi. facciamo sì che Egli non veda in noi sempre se non il solo bene. (epistolario IV, 966)
+
+le virtù che mi sono più care sono l'umiltà, la purezza, l'amore di Dio. (la Madonna a santa Faustina)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div><div class="mys"><span class="title">3. Gesù coronato di spine</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Mt/27/" target="_blank">Matteo 27:27-29</a>
+<span class="counter" id="v27">27</span> allora i soldati del governatore condussero Gesù nel pretorio e Gli radunarono attorno tutta la truppa.
+<span class="counter" id="v28">28</span> Lo spogliarono, Gli fecero indossare un mantello scarlatto,
+<span class="counter" id="v29">29</span> intrecciarono una corona di spine, Gliela posero sul capo e Gli misero una canna nella mano destra.
+poi, inginocchiandosi davanti a Lui, Lo deridevano: «salve, re dei Giudei!».
+<span class="counter">frutto: coraggio</span><details class="alt"><summary>con padre Pio</summary><div class="body">vorrei volare per invitare le creature tutte ad amare Gesù, ad amare Maria. (epistolario I, 357)
+
+la Madonna è la nostra mamma. (san Pio)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div><div class="mys"><span class="title">4. Gesù sale al Calvario</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Mc/15/" target="_blank">Marco 15:21-22</a>
+<span class="counter" id="v21">21</span> costrinsero a portare la Sua croce un tale che passava, un certo Simone di Cirene, che veniva dalla campagna, padre di Alessandro e di Rufo.
+<span class="counter" id="v22">22</span> condussero Gesù al luogo del Gòlgota, che significa «luogo del cranio».
+<span class="counter">frutto: pazienza</span><details class="alt"><summary>con padre Pio</summary><div class="body">io non bramo punto di essere alleggerita la croce, poiché soffrire con Gesù mi è caro; nel contemplare la croce sulle spalle di Gesù mi sento sempre più fortificato ed esulto di una santa gioia. (epistolario I, 303)
+
+santifica la festa. (san Pio)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div><div class="mys"><span class="title">5. Gesù muore in croce</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/23/" target="_blank">Luca 23:33-46</a>
+<span class="counter" id="v33">33</span> quando giunsero sul luogo chiamato Cranio, vi crocifissero Lui e i malfattori, uno a destra e l'altro a sinistra.
+<span class="counter" id="v34">34</span> Gesù diceva: «Padre, perdona loro perché non sanno quello che fanno».
+poi dividendo le Sue vesti, le tirarono a sorte.
+<span class="counter" id="v35">35</span> il popolo stava a vedere; i capi invece Lo deridevano dicendo: «ha salvato altri! salvi Se stesso, se è Lui il Cristo di Dio, l'eletto».
+<span class="counter" id="v36">36</span> anche i soldati Lo deridevano, Gli si accostavano per porgerGli dell'aceto
+<span class="counter" id="v37">37</span> e dicevano: «se Tu sei il re dei Giudei, salva Te stesso».
+<span class="counter" id="v38">38</span> sopra di Lui c'era anche una scritta: «costui è il re dei Giudei».
+<span class="counter" id="v39">39</span> uno dei malfattori appesi alla croce Lo insultava: «non sei Tu il Cristo? salva Te stesso e noi!».
+<span class="counter" id="v40">40</span> l'altro invece lo rimproverava dicendo: «non hai alcun timore di Dio, tu che sei condannato alla stessa pena?
+<span class="counter" id="v41">41</span> noi, giustamente, perché riceviamo quello che abbiamo meritato per le nostre azioni; Egli invece non ha fatto nulla di male».
+<span class="counter" id="v42">42</span> e disse: «Gesù, ricòrdati di me quando entrerai nel Tuo Regno».
+<span class="counter" id="v43">43</span> Gli rispose: «in verità Io ti dico: oggi con Me sarai nel paradiso».
+<span class="counter" id="v44">44</span> era già verso mezzogiorno e si fece buio su tutta la terra fino alle tre del pomeriggio,
+<span class="counter" id="v45">45</span> perché il sole si era eclissato.
+il velo del tempio si squarciò a metà.
+<span class="counter" id="v46">46</span> Gesù, gridando a gran voce, disse: «Padre, nelle Tue mani consegno il Mio spirito».
+detto questo, spirò.
+<span class="counter">frutto: pentimento dei peccati</span><details class="alt"><summary>con padre Pio</summary><div class="body">ricordati e imprimiti bene nella mente che il Calvario è il monte dei santi; ma ricordati ancora che dopo salito il Calvario, piantatavi la croce e spirata su dessa, si ascenderà immediatamente ad un altro monte che si denomina Tabor, la Gerusalemme celeste. ricordati che il patire è breve, ma la ricompensa è eterna. (epistolario III, 246)
+
+amate la Madonna e fatela amare. recitate sempre il rosario. (testamento spirituale)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details></div></div></details><details class="set" data-set="glorious"><summary>↳ misteri della gloria <span class="counter">// mercoledì e domenica</span><span class="today"></span></summary><div class="body"><div class="mys"><span class="title">1. Gesù risorge da morte</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/24/" target="_blank">Luca 24:1-5</a>
+<span class="counter" id="v1">1</span> il primo giorno della settimana, al mattino presto esse si recarono al sepolcro, portando con sé gli aromi che avevano preparato.
+<span class="counter" id="v2">2</span> trovarono che la pietra era stata rimossa dal sepolcro
+<span class="counter" id="v3">3</span> e, entrate, non trovarono il corpo del Signore Gesù.
+<span class="counter" id="v4">4</span> mentre si domandavano che senso avesse tutto questo, ecco due uomini presentarsi a loro in abito sfolgorante.
+<span class="counter" id="v5">5</span> le donne, impaurite, tenevano il volto chinato a terra, ma quelli dissero loro: «perché cercate tra i morti Colui che è vivo?»
+<span class="counter">frutto: fede</span><details class="alt"><summary>con padre Pio</summary><div class="body">la pace è la semplicità dello spirito, la serenità della mente, la tranquillità dell'anima, il vincolo dell'amore. la pace è l'ordine, è l'armonia in tutti noi: ella è un continuato godimento, che nasce dal testimonio della buona coscienza: è l'allegrezza santa di un cuore, in cui vi regna Iddio. la pace è il cammino alla perfezione, anzi nella pace si trova la perfezione, e il demonio, che conosce assai bene tutto questo, fa tutti gli sforzi per farci perdere la pace. (epistolario I, 607)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details><details class="alt"><summary>tv2000, da Porto Torres</summary><div class="body">lettura (Lc 24,1-6)
+«il primo giorno dopo il sabato, di buon mattino, si recarono alla tomba, portando con sé gli aromi che avevano preparato. trovarono la pietra rotolata via dal sepolcro; ma, entrate, non trovarono il corpo del Signore Gesù. mentre erano ancora incerte, ecco due uomini apparire vicino a loro in vesti sfolgoranti. essendosi le donne impaurite e avendo chinato il volto a terra, essi dissero loro: "perché cercate tra i morti Colui che è vivo? non è qui, è risuscitato"»
+
+meditazione
+«la luce che riempie le stanze di una casa proviene dal sole che dall'esterno illumina ogni cosa. così anche i doni più belli che arricchiscono la vita di una famiglia provengono da una apertura all'alterità, che diviene atteggiamento di accoglienza verso l'imprevedibilità della vita. oggi lo scenario che caratterizza il nostro vissuto rischia di essere determinato da una crescente chiusura, esito di paure infondate che inibiscono il rapporto vitale con l'alterità. in concreto si tratta di promuovere con tenacia lo sviluppo di una "cultura dell'incontro"».
+
+intenzione
+preghiamo affinché, nelle situazioni familiari, sociali, economiche e politiche conflittuali, siamo coraggiosi e appassionati artefici del dialogo e dell'amicizia.
+
+<span class="counter">↳ fonte: <a href="https://www.tv2000.it/wp-content/uploads/2021/08/Libretto-Santo-Rosario-SASSARI-TV2000.pdf" target="_blank">tv2000, santo rosario da Porto Torres, arcidiocesi di Sassari</a></span></div></details></div><div class="mys"><span class="title">2. Gesù ascende al cielo</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Mc/16/" target="_blank">Marco 16:19</a>
+<span class="counter" id="v19">19</span> il Signore Gesù, dopo aver parlato con loro, fu elevato in cielo e sedette alla destra di Dio.
+<span class="counter">frutto: speranza</span><details class="alt"><summary>con padre Pio</summary><div class="body">passeranno anche per noi questi quaranta giorni che mancano alla nostra salita al cielo. non saranno giorni poi, ma saranno mesi, saranno forse anni: io vi auguro, o fratelli, una vita lunga e prosperosa, piena di benedizioni celesti e terrene. ma, finalmente, questa vita finirà! ed allora felici noi, se ci saremo assicurati la gioia di un felice passaggio all'eternità. (epistolario IV, 1085)
+
+(Lucia di Fatima alla Madonna)
+- anch'io andrò in cielo?
+- sì, vi andrai.
+- e Giacinta?
+- anche lei.
+- e Francesco?
+- anche lui, ma deve recitare il rosario.
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details><details class="alt"><summary>tv2000, da Porto Torres</summary><div class="body">lettura (Mc 16,19-20)
+il Signore Gesù, dopo aver parlato con loro, fu elevato in cielo e sedette alla destra di Dio. allora essi partirono e predicarono dappertutto, mentre il Signore agiva insieme con loro e confermava la Parola con i segni che la accompagnavano.
+
+meditazione
+«la Chiesa non evangelizza se non si lascia continuamente evangelizzare. è indispensabile che la Parola di Dio diventi sempre più il cuore di ogni attività ecclesiale» (Evangelii gaudium, 174). l'umano che attrae gli umani prospetta la sfida dell'interdipendenza tra gli uomini. è quel mistero di solidarietà che da Dio scende sull'umanità rinnovata dal Vangelo e la trasforma in un popolo capace di camminare insieme verso la costruzione di un destino di salvezza.
+
+intenzione
+preghiamo per tutti gli uomini e le donne del nostro tempo. la mobilità umana, l'interdipendenza tra i popoli, la compresenza di culture e di fedi differenti diventino occasione per maturare il passaggio da una visione geografica della missione e dell'evangelizzazione ad una visione relazionale e culturale.
+
+<span class="counter">↳ fonte: <a href="https://www.tv2000.it/wp-content/uploads/2021/08/Libretto-Santo-Rosario-SASSARI-TV2000.pdf" target="_blank">tv2000, santo rosario da Porto Torres, arcidiocesi di Sassari</a></span></div></details></div><div class="mys"><span class="title">3. la discesa dello Spirito Santo</span>
+<a href="post.html?p=bible/acts_2-1-4.txt">Atti 2:1-4</a>
+<span class="counter" id="v1">1</span> mentre stava compiendosi il giorno della Pentecoste, si trovavano tutti insieme nello stesso luogo.
+<span class="counter" id="v2">2</span> venne all'improvviso dal cielo un fragore, quasi un vento che si abbatte impetuoso, e riempì tutta la casa dove stavano.
+<span class="counter" id="v3">3</span> apparvero loro lingue come di fuoco, che si dividevano, e si posarono su ciascuno di loro,
+<span class="counter" id="v4">4</span> e tutti furono colmati di Spirito Santo e cominciarono a parlare in altre lingue, nel modo in cui lo Spirito dava loro il potere di esprimersi.
+<span class="counter">frutto: sapienza</span><details class="alt"><summary>con padre Pio</summary><div class="body">non vi abbandonate mai a voi stessa; ogni fiducia ponetela in Dio solo, da Lui aspettatevi ogni forza e non desiderate soverchiamente di essere libera dal presente stato; lasciate che lo Spirito Santo operi in voi. abbandonatevi a tutti i Suoi trasporti e non temete. Egli è tanto sapiente, soave e discreto da non causare che il bene. quale bontà di questo Spirito Paraclito per tutti, ma quale per voi massimamente che Lo cercate! (epistolario II, 64)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details><details class="alt"><summary>tv2000, da Porto Torres</summary><div class="body">lettura (At 2,1-4)
+«mentre il giorno di Pentecoste stava per finire, si trovavano tutti insieme nello stesso luogo. venne all'improvviso dal cielo un rombo, come di vento che si abbatte gagliardo, e riempì tutta la casa dove si trovavano. apparvero loro lingue come di fuoco che si dividevano e si posarono su ciascuno di loro; ed essi furono tutti pieni di Spirito Santo e cominciarono a parlare in altre lingue come lo Spirito dava loro il potere di esprimersi»
+
+meditazione
+«riappare la tentazione di fare una cultura dei muri, di alzare i muri, muri nel cuore, muri nella terra per impedire questo incontro con altre culture, con altra gente. e chi alza un muro, chi costruisce un muro finirà schiavo dentro ai muri che ha costruito, senza orizzonti. perché gli manca questa alterità» (Francesco, Fratelli tutti, 27).
+
+intenzione
+nel cammino sinodale che ci attende, l'azione e la forza dello Spirito, che fa nuove le cose, doni la disponibilità all'ascolto quale via maestra per mantenere viva l'attenzione nelle relazioni sociali e progredire insieme oltre l'indifferenza.
+
+<span class="counter">↳ fonte: <a href="https://www.tv2000.it/wp-content/uploads/2021/08/Libretto-Santo-Rosario-SASSARI-TV2000.pdf" target="_blank">tv2000, santo rosario da Porto Torres, arcidiocesi di Sassari</a></span></div></details></div><div class="mys"><span class="title">4. l'assunzione di Maria al cielo</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/1/" target="_blank">Luca 1:48-49</a>
+<span class="counter" id="v48">48</span> perché ha guardato l'umiltà della Sua serva.
+d'ora in poi tutte le generazioni mi chiameranno beata.
+<span class="counter" id="v49">49</span> grandi cose ha fatto per me l'Onnipotente
+e Santo è il Suo nome.
+<span class="counter">frutto: devozione a Maria</span><details class="alt"><summary>con padre Pio</summary><div class="body">Gesù che regnava in cielo coll'umanità santissima, che aveva preso dalle viscere della Vergine, volle che pure la madre Sua non solo con l'anima, ma anche col corpo, si riunisse a Lui e dividesse appieno la Sua gloria. e ciò era ben giusto e doveroso. quel corpo che neppure un istante era stato schiavo del demonio e del peccato, non lo doveva essere neppure nella corruzione. (epistolario IV, 1089)
+
+non c'è preghiera che sia più gradita a Dio del rosario. (santa Teresa di Gesù Bambino)
+
+ogni giorno il rosario. (san Pio)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details><details class="alt"><summary>tv2000, da Porto Torres</summary><div class="body">lettura (Lc 1,46-50)
+allora Maria disse: «l'anima mia magnifica il Signore e il mio spirito esulta in Dio, mio salvatore, perché ha guardato l'umiltà della Sua serva. d'ora in poi tutte le generazioni mi chiameranno beata. grandi cose ha fatto per me l'Onnipotente e Santo è il Suo nome; di generazione in generazione la Sua misericordia per quelli che Lo temono».
+
+meditazione
+la Vergine Maria ci aiuti nel vivere il mistero di solidarietà. nella società e nella Chiesa faccia crescere, come in una danza e in un canto corale, l'attenzione all'altro, la cura fraterna, la solidarietà. aiuti ogni persona, la nostra Madre celeste assunta in cielo, ad alzare lo sguardo verso la sorgente della solidarietà. possa ogni persona liberarsi dalla peste dell'indifferenza contemplando il Risorto, volto di Dio che si è fatto uomo con gli uomini, solidale con noi per rinnovarci nell'amore.
+
+intenzione
+preghiamo affinché la materna intercessione di Maria ci aiuti a lasciarci raggiungere e trasformare da questo annuncio di fraternità per prendere sul serio la sfida della solidarietà e divenire così partecipi della costruzione di un nuovo umanesimo dell'incontro.
+
+<span class="counter">↳ fonte: <a href="https://www.tv2000.it/wp-content/uploads/2021/08/Libretto-Santo-Rosario-SASSARI-TV2000.pdf" target="_blank">tv2000, santo rosario da Porto Torres, arcidiocesi di Sassari</a></span></div></details></div><div class="mys"><span class="title">5. Maria, regina del cielo e della terra</span>
+<a href="https://www.bibbiaedu.it/CEI2008/nt/Ap/12/" target="_blank">Apocalisse 12:1</a>
+<span class="counter" id="v1">1</span> un segno grandioso apparve nel cielo: una donna vestita di sole, con la luna sotto i suoi piedi e, sul capo, una corona di dodici stelle.
+<span class="counter">frutto: la grazia di una santa morte</span><details class="alt"><summary>con padre Pio</summary><div class="body">le porte eterne si schiudono, e la Madre di Dio vi entra. non appena i beati comprensori la vedono, compresi dallo splendore della sua bellezza, le muovono tutti giulivi e festanti incontro, la salutano e la onorano coi titoli più eccelsi, si prostrano ai suoi piedi, le presentano i loro omaggi, la proclamano concordemente loro regina. alla festa degli angeli si unisce la Santissima Trinità. il Padre accoglie in lei la Sua prediletta e la invita a prendere parte alla Sua potenza. (epistolario IV, 1090)
+
+recita sempre il rosario. porta con te la corona. (san Pio)
+
+<span class="counter">↳ fonte: <a href="https://www.sanpiodapietrelcina.org/rosario.htm" target="_blank">santuario di san Pio da Pietrelcina, rosario con padre Pio</a></span></div></details><details class="alt"><summary>tv2000, da Porto Torres</summary><div class="body">lettura (Ap 12,1-2.5)
+un segno grandioso apparve nel cielo: una donna vestita di sole, con la luna sotto i suoi piedi e, sul capo, una corona di dodici stelle. era incinta, e gridava per le doglie e il travaglio del parto. essa partorì un figlio maschio, destinato a governare tutte le nazioni.
+
+meditazione
+per la comunità cristiana e per i cristiani tutti, incarnare la cultura della solidarietà significa divenire testimoni del nuovo umanesimo dell'incontro, mettendo in pratica qualcosa di nuovo (come alle origini) e facendo lievitare la solidarietà non soltanto nella vita delle comunità, ma nell'ordinarietà della vita. la solidarietà di Dio, in Maria, diviene principio della solidarietà umana.
+
+intenzione
+preghiamo per tutte le realtà ecclesiali, affinché riscoprano che educare significa generare! accettino la sfida a cui non ci si può sottrarre e che non può prescindere dalle differenze per rinchiudersi nella comodità, nella pigrizia, da spettatori di una staticità sterile.
+
+<span class="counter">↳ fonte: <a href="https://www.tv2000.it/wp-content/uploads/2021/08/Libretto-Santo-Rosario-SASSARI-TV2000.pdf" target="_blank">tv2000, santo rosario da Porto Torres, arcidiocesi di Sassari</a></span></div></details></div></div></details>
+→ un altro rosario
+
+il rosario a santa Rita è una devozione diversa: i cinque misteri raccontano la vita di Rita, e al posto delle ave Maria si ripete un'invocazione a lei.
+
+<details class="set"><summary>↳ rosario a santa Rita</summary><div class="body">d. o Signore, vieni in mio aiuto.
+r. Signore, affrettati ad aiutarmi.
+
+I mistero
+santa Rita, tu che godi
+nel bel cielo il sommo Bene,
+vera amante delle pene
+che soffrì per noi Gesù.
+padre nostro…
+d. mentre Dio ne accorda vita
+diamo tutti laude a Rita.
+r. sempre, sempre sia lodata
+Rita in cielo coronata.
+(si ripete dieci volte, poi: gloria al Padre…)
+
+II mistero
+imitasti il Nazareno perdonando l'uccisore,
+ed i figli con ardore incitasti a perdonar.
+padre nostro…
+d. mentre Dio ne accorda vita… (dieci volte)
+
+III mistero
+resa vedova abbracciasti
+sacro chiostro, in cui già regge
+d'Agostin la dolce legge
+per sacrarti al sommo Ben.
+padre nostro…
+d. mentre Dio ne accorda vita… (dieci volte)
+
+IV mistero
+ed il corpo in quell'asilo
+tu stringesti con catene,
+con digiuni ed aspre pene
+per amore di Gesù.
+padre nostro…
+d. mentre Dio ne accorda vita… (dieci volte)
+
+V mistero
+quella spina insanguinata
+che trafigge la tua fronte
+e per te celeste fonte
+di conforto nel dolore.
+padre nostro…
+d. mentre Dio ne accorda vita… (dieci volte)
+
+preghiera
+or che godi in ciel più bello
+di Gesù l'amabil viso
+volgi a noi il tuo sorriso
+nella valle dei sospir,
+finché spenta la scintilla
+della vita nel dolor,
+fisseremo la pupilla
+nella luce del Signor.
+d. ci sia caro in questa vita
+il tuo nome, o santa Rita.
+r. tu nei casi disperati
+sii conforto ai tribolati.
+
+orazione
+o Dio, che a santa Rita Ti degnasti infondere tanta grazia ad amare gli stessi nemici, e portare nel cuore e sulla fronte i segni della Tua carità e passione; concedici, Ti preghiamo, per suo merito ed intercessione, di perdonare i nemici nostri e contemplare le sofferenze della Tua passione, in modo da ottenere il premio promesso ai miti ed a coloro che piangono. amen.
+
+<span class="counter">↳ fonte: <a href="https://santaritadacascia.org/preghiere/ritiane-e-pie-pratiche/rosario-a-santa-rita/" target="_blank">monastero di santa Rita da Cascia</a></span></div></details>
+
+→ perché Maria
+
+l'ave Maria è fatta di Scrittura. la prima metà unisce due saluti del Vangelo di Luca: quello dell'angelo Gabriele, «rallégrati, piena di grazia: il Signore è con te» (Luca 1:28), e quello di Elisabetta, «benedetta tu fra le donne e benedetto il frutto del tuo grembo!» (Luca 1:42). l'angelo è solo un messaggero, quindi il primo saluto in realtà è di Dio. la seconda metà chiede a Maria di pregare per noi. lei non è il punto d'arrivo: il nome al centro della preghiera è Gesù, e ogni scena del rosario è una scena della Sua vita.
+
+→ le preghiere
+
+↳ segno della croce
+nel nome del Padre e del Figlio e dello Spirito Santo. amen.
+
+↳ credo
+io credo in Dio, Padre onnipotente, creatore del cielo e della terra.
+e in Gesù Cristo, Suo unico Figlio, nostro Signore, il quale fu concepito di Spirito Santo, nacque da Maria vergine, patì sotto Ponzio Pilato, fu crocifisso, morì e fu sepolto; discese agli inferi; il terzo giorno risuscitò da morte; salì al cielo, siede alla destra di Dio Padre onnipotente: di là verrà a giudicare i vivi e i morti.
+credo nello Spirito Santo, la santa chiesa cattolica, la comunione dei santi, la remissione dei peccati, la risurrezione della carne, la vita eterna. amen.
+
+↳ padre nostro
+Padre nostro, che sei nei cieli, sia santificato il Tuo nome, venga il Tuo Regno, sia fatta la Tua volontà, come in cielo così in terra.
+dacci oggi il nostro pane quotidiano, e rimetti a noi i nostri debiti come anche noi li rimettiamo ai nostri debitori, e non abbandonarci alla tentazione, ma liberaci dal male. amen.
+
+↳ ave Maria
+ave, o Maria, piena di grazia, il Signore è con te.
+tu sei benedetta fra le donne e benedetto è il frutto del tuo seno, Gesù.
+santa Maria, madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. amen.
+
+↳ gloria al Padre
+gloria al Padre e al Figlio e allo Spirito Santo.
+come era nel principio e ora e sempre nei secoli dei secoli. amen.
+
+↳ preghiera di Fatima
+Gesù mio, perdona le nostre colpe, preservaci dal fuoco dell'inferno, porta in cielo tutte le anime, specialmente le più bisognose della Tua misericordia.
+
+↳ salve regina
+salve, regina, madre di misericordia, vita, dolcezza e speranza nostra, salve.
+a te ricorriamo, esuli figli di Eva; a te sospiriamo, gementi e piangenti in questa valle di lacrime.
+orsù dunque, avvocata nostra, rivolgi a noi gli occhi tuoi misericordiosi.
+e mostraci, dopo questo esilio, Gesù, il frutto benedetto del tuo seno.
+o clemente, o pia, o dolce vergine Maria!
+
+↳ preghiera finale
+v. prega per noi, santa madre di Dio.
+r. affinché siamo fatti degni delle promesse di Cristo.
+preghiamo. o Dio, il Tuo unico Figlio ci ha acquistato con la Sua vita, morte e risurrezione i beni della salvezza eterna: concedi a noi che, venerando questi misteri del santo rosario della vergine Maria, imitiamo ciò che contengono e otteniamo ciò che promettono. per Cristo nostro Signore. amen.
+
+<span class="counter">↳ fonte: <a href="https://www.vatican.va/content/john-paul-ii/it/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html" target="_blank">rosarium virginis mariae</a></span>
+<span class="counter">↳ fonte: <a href="https://www.usccb.org/how-to-pray-the-rosary" target="_blank">usccb, how to pray the rosary</a></span>
+<span class="counter">↳ fonte: <a href="https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_it.html" target="_blank">compendio del catechismo, preghiere comuni</a></span>
+</pre>
+<script>
+  (function () {
+    var d = {0:"glorious",1:"joyful",2:"sorrowful",3:"glorious",4:"luminous",5:"sorrowful",6:"joyful"}[new Date().getDay()];
+    var s = document.querySelector('details[data-set="' + d + '"]');
+    if (s) { s.querySelector('.today').textContent = ' (oggi)'; }
+  })();
+</script>
+  </body>
+</html>
