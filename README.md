@@ -1,8 +1,8 @@
 # soul // it
 
-The Italian sibling of [`soul`](https://github.com/ivana-rep/soul) — a personal, static devotional site: bible verses, prayers, saint biographies, and short "commonplace" quotes, some with a short personal reflection. Same structure and build as `soul`, translated content, CEI 2008 as the bible source instead of NLT. Plain HTML + `.txt` content files, no build step, no framework, no database. Live at:
+The Italian sibling of [`soul`](https://github.com/thesouldevotional/soul) — a personal, static devotional site: bible verses, prayers, saint biographies, and short "commonplace" quotes, some with a short personal reflection. Same structure and build as `soul`, translated content, CEI 2008 as the bible source instead of NLT. Plain HTML + `.txt` content files, no build step, no framework, no database. Live at:
 
-**https://ivana-rep.github.io/soul-it/**
+**https://thesouldevotional.github.io/soul-it/**
 
 ## How it's built
 
