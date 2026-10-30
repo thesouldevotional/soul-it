@@ -17,6 +17,7 @@ amen.
 ~ ↳ preghiere correlate >
 ~ [è compiuto](post.html?p=prayers/e-compiuto.txt)
 ~ [riposa nel Tuo abbraccio](post.html?p=prayers/riposa-nel-tuo-abbraccio.txt)
+~ [perdona quello che sono stato](post.html?p=prayers/perdona-quello-che-sono-stato.txt)
 
 ~ ↳ versetti correlati >
 ~ [Giacomo 5:16](post.html?p=bible/james_5-16.txt) | molto potente è la preghiera del giusto
@@ -30,5 +31,7 @@ amen.
 ~ [Colossesi 4:2](post.html?p=bible/colossians_4-2.txt) | perseverate nella preghiera
 ~ [Romani 5:6-11](post.html?p=bible/romans_5-6-11.txt) | mentre eravamo ancora peccatori *
 ~ [1 Giovanni 3:19-20](post.html?p=bible/1-john_3-19-20.txt) | le nostre azioni dimostrano se viviamo nella verità
+~ [Matteo 9:9-13](post.html?p=bible/matthew_9-9-13.txt) | i malati hanno bisogno del medico
+~ [Isaia 53:5](post.html?p=bible/isaiah_53-5.txt) | per le Sue piaghe
 
 > leggi [un altro](post.html?p=prayers/ti-lodero.txt)
