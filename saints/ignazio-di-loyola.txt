@@ -109,6 +109,7 @@ c. 1506 | entra come paggio nella casa di Juan Velázquez de Cuéllar, tesoriere
 ↳ preghiera: [preghiera della sera](post.html?p=prayers/preghiera-della-sera.txt) *
 ↳ preghiera: [appartengo interamente a Te](post.html?p=prayers/appartengo-interamente-a-te.txt)
 ↳ preghiera: [non la mia volontà, ma la Tua](post.html?p=prayers/non-la-mia-volonta-ma-la-tua.txt) *
+↳ preghiera: [scrutami, conoscimi](post.html?p=prayers/scrutami-conoscimi.txt)
 ↳ commonplace: [la salvezza è sinergia](post.html?p=commonplace/la-salvezza-e-sinergia.txt)
 ↳ commonplace: [sapere, volere, fare, discernere il bene](post.html?p=commonplace/sapere-volere-fare-discernere-il-bene.txt)
 ↳ commonplace: [contento di quello che dispone Dio](post.html?p=commonplace/contento-di-quello-che-dispone-dio.txt)

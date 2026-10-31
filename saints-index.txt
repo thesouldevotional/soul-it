@@ -50,7 +50,7 @@ capsules: 2026-04-21 Recognition | 2026-04-18 The gap
 ignazio-di-loyola | Ignazio di Loyola | feast: 31 luglio
 themes: examen, Esercizi spirituali, discernimento degli spiriti (consolazione/desolazione), indifferenza e principio e fondamento, Suscipe / abbandono, scrupoli, preghiera con l'immaginazione, trovare Dio in tutte le cose, soldato diventato pellegrino, eredità (Compagnia di Gesù, scuole gesuite, patrono dei ritiri, papa Francesco)
 verses: Isaia 43:7 (fatto per la Mia gloria) | Salmi 139:23-24 (scrutami il cuore) | 1 Tessalonicesi 5:16-18 (siate sempre lieti) | 1 Corinzi 9:24-27 (la crescita spirituale richiede disciplina) | Galati 5:1-26 (aspettiamo per mezzo dello Spirito) | Efesini 6:10-18 (l'armatura di Dio)
-prayers: preghiera della sera | appartengo interamente a Te | non la mia volontà, ma la Tua
+prayers: preghiera della sera | appartengo interamente a Te | non la mia volontà, ma la Tua | scrutami, conoscimi
 commonplace: la salvezza è sinergia | sapere, volere, fare, discernere il bene | contento di quello che dispone Dio
 
 massimiliano-maria-kolbe | Massimiliano Maria Kolbe | feast: 14 agosto
