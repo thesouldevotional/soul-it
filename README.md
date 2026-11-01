@@ -23,7 +23,7 @@ all-verses-archive.html       flat list of every verse, newest first (drives the
 all-commonplace-archive.html  flat list of every commonplace entry, newest first (drives its own loop)
 saints.html                   list of every saint, linking to their individual page
 saints-index.txt              internal-only lookup index of saint connections
-topics.html                   topic index — generated at load time from archive.html's topic sections
+topics.html                   redirect to archive.html (the topic index moved into the archive's topic menu)
 books-of-the-bible.html       every book with an explainer, grouped in ten canonical sections
 guides/                       long-form guides (e.g. how to read the bible)
 path-for-the-skeptical.html   a six-question path through scripture
@@ -51,7 +51,7 @@ Same closed-loop mechanics as `soul` — three independent rings (verses, prayer
 
 ## Archive & topic system
 
-Same as `soul`: `archive.html` is the single hub for all verses and prayers, with a `↳ autore / libro` index and an `↳ argomento` link to `topics.html`. Topics are chosen independently per site — an Italian topic doesn't need to match its English counterpart's slug, only the underlying grouping.
+Same as `soul`: `archive.html` is the single hub for all verses and prayers, with a book menu and a topic menu at the top. Topics are chosen independently per site — an Italian topic doesn't need to match its English counterpart's slug, only the underlying grouping.
 
 ## Content creation
 

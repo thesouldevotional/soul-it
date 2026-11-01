@@ -4,14 +4,15 @@ guida | percorsi di preghiera
 ↳ [en](https://thesouldevotional.github.io/soul/post.html?p=guides/prayer-paths.txt) // it
 
 → preghiere quotidiane
-    ↳ [mattino](post.html?p=prayers/preghiera-del-mattino.txt)
-    ↳ [mezzogiorno (giorni lavorativi)](post.html?p=prayers/preghiera-di-mezzogiorno-giorni-lavorativi.txt)
-    ↳ [mezzogiorno (giorni di riposo)](post.html?p=prayers/preghiera-di-mezzogiorno-giorni-di-riposo.txt)
-    ↳ [preghiera della sera](post.html?p=prayers/preghiera-della-sera.txt)
-→ se vuoi digiunare
+    ↳ [mattino](post.html?p=prayers/preghiera-del-mattino.txt) ✎
+    ↳ [mezzogiorno (giorni lavorativi)](post.html?p=prayers/preghiera-di-mezzogiorno-giorni-lavorativi.txt) ✎
+    ↳ [mezzogiorno (giorni di riposo)](post.html?p=prayers/preghiera-di-mezzogiorno-giorni-di-riposo.txt) ✎
+    ↳ [preghiera della sera](post.html?p=prayers/preghiera-della-sera.txt) ✎
+→ per momenti specifici
+  → se vuoi digiunare
     ↳ [cos'è il digiuno e perché aiuta](post.html?p=guides/digiuno.txt)
     ↳ [mentre inizio questo digiuno](post.html?p=prayers/mentre-inizio-questo-digiuno.txt)
     ↳ [quando arriva la fame](post.html?p=prayers/quando-arriva-la-fame.txt)
     ↳ [alla fine del digiuno](post.html?p=prayers/alla-fine-del-digiuno.txt)
-→ mente distratta
+  → mente distratta
     ↳ [raccogli la mia mente dispersa](post.html?p=prayers/raccogli-la-mia-mente-dispersa.txt)

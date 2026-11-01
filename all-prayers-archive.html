@@ -1,104 +1,29 @@
 <!doctype html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8">
-    <title>soul // it — tutte le preghiere</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark">
-    <link rel="icon" type="image/png" href="/soul-it/soulfavicon.png" media="(prefers-color-scheme: light)">
-    <link rel="icon" type="image/png" href="/soul-it/soulfavicon_dark.png" media="(prefers-color-scheme: dark)">
-    <link rel="apple-touch-icon" sizes="180x180" href="/soul-it/apple-touch-icon.png">
+<head>
+  <meta charset="utf-8">
+  <title>soul // it · tutte le preghiere</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/png" href="/soul-it/soulfavicon.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="/soul-it/soulfavicon_dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" sizes="180x180" href="/soul-it/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="soul.css">
+  <script src="soul.js"></script>
+</head>
+<body>
+<main class="card list" id="card">
+<div class="banner p-plum"><span class="tag">preghiere</span></div>
+<nav class="nav"><a class="chip" href="index.html">indice</a><a class="chip" href="archive.html">archivio</a><a class="chip ghost" href="https://thesouldevotional.github.io/soul/all-prayers-archive.html">en</a></nav>
+<div class="ref">dalla più recente</div>
+<h1 class="title">tutte le preghiere</h1>
+</main>
 
-    <style>
-      :root {
-        --bg: #ffffff;
-        --fg: #111111;
-        --link: #005bff;
-
-        --mark-light: rgba(255, 241, 118, 0.9);
-        --mark-dark: rgba(255, 235, 59, 0.9);
-      }
-
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg: #000000;
-          --fg: #ffffff;
-          --link: #8fc9ed;
-        }
-      }
-
-      html, body { height: 100%; }
-      html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-
-      body {
-        margin: 0;
-        background: var(--bg);
-        color: var(--fg);
-        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
-        line-height: 1.35;
-        -webkit-font-smoothing: antialiased;
-        padding: 16px;
-      }
-
-      @media (hover: hover) and (pointer: fine) {
-        body {
-          font-size: 12.6px;
-        }
-      }
-
-      a, a:visited {
-        color: var(--link);
-        text-decoration: none;
-      }
-
-      a:hover { text-decoration: underline; }
-
-      pre {
-        margin: 0;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-      }
-
-      mark {
-        background: none;
-        color: inherit;
-        padding: 0 2px;
-        background-image: linear-gradient(
-          transparent 62%,
-          var(--mark-light) 62%
-        );
-      }
-
-      @media (prefers-color-scheme: dark) {
-        mark {
-          background: none;
-          padding: 0;
-          color: var(--fg);
-          text-decoration: underline;
-          text-decoration-thickness: 2px;
-          text-underline-offset: 0.15em;
-          text-decoration-color: var(--mark-dark);
-        }
-      }
-
-      .counter {
-        color: #767676;
-        font-size: 0.8em;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        .counter {
-          color: #999;
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-<pre>
-<mark>soul // it</mark> — tutte le preghiere | <a href="index.html">indice</a> | <a href="archive.html">archivio</a>
+<pre id="data" hidden>
 ↳ <a href="https://thesouldevotional.github.io/soul/all-prayers-archive.html">en</a> // it
-
 ↳ <a href="post.html?p=prayers/scrutami-conoscimi.txt">scrutami, conoscimi</a> | <a href="archive.html#cuore-preghiere">cuore</a>
 ↳ <a href="post.html?p=prayers/perdona-quello-che-sono-stato.txt">perdona quello che sono stato</a> | <a href="archive.html#confessione-preghiere">confessione</a>
 ↳ <a href="post.html?p=prayers/grazie-perche-porti-i-miei-pesi.txt">grazie perché porti i miei pesi</a> | <a href="archive.html#preoccupazione-preghiere">preoccupazione</a>
@@ -107,10 +32,10 @@
 ↳ <a href="post.html?p=prayers/alla-fine-del-digiuno.txt">alla fine del digiuno</a> | <a href="archive.html#digiuno-preghiere">digiuno</a>
 ↳ <a href="post.html?p=prayers/quando-arriva-la-fame.txt">quando arriva la fame</a> | <a href="archive.html#digiuno-preghiere">digiuno</a>
 ↳ <a href="post.html?p=prayers/mentre-inizio-questo-digiuno.txt">mentre inizio questo digiuno</a> | <a href="archive.html#digiuno-preghiere">digiuno</a>
-↳ <a href="post.html?p=prayers/preghiera-della-sera.txt">preghiera della sera</a> * | <a href="archive.html#abitudine-di-pregare-preghiere">abitudine di pregare</a>
-↳ <a href="post.html?p=prayers/preghiera-di-mezzogiorno-giorni-di-riposo.txt">preghiera di mezzogiorno (giorni di riposo)</a> * | <a href="archive.html#abitudine-di-pregare-preghiere">abitudine di pregare</a>
-↳ <a href="post.html?p=prayers/preghiera-di-mezzogiorno-giorni-lavorativi.txt">preghiera di mezzogiorno (giorni lavorativi)</a> * | <a href="archive.html#abitudine-di-pregare-preghiere">abitudine di pregare</a>
-↳ <a href="post.html?p=prayers/preghiera-del-mattino.txt">preghiera del mattino</a> * | <a href="archive.html#abitudine-di-pregare-preghiere">abitudine di pregare</a>
+↳ <a href="post.html?p=prayers/preghiera-della-sera.txt">preghiera della sera</a> ✎ | <a href="archive.html#abitudine-di-pregare-preghiere">abitudine di pregare</a>
+↳ <a href="post.html?p=prayers/preghiera-di-mezzogiorno-giorni-di-riposo.txt">preghiera di mezzogiorno (giorni di riposo)</a> ✎ | <a href="archive.html#abitudine-di-pregare-preghiere">abitudine di pregare</a>
+↳ <a href="post.html?p=prayers/preghiera-di-mezzogiorno-giorni-lavorativi.txt">preghiera di mezzogiorno (giorni lavorativi)</a> ✎ | <a href="archive.html#abitudine-di-pregare-preghiere">abitudine di pregare</a>
+↳ <a href="post.html?p=prayers/preghiera-del-mattino.txt">preghiera del mattino</a> ✎ | <a href="archive.html#abitudine-di-pregare-preghiere">abitudine di pregare</a>
 ↳ <a href="post.html?p=prayers/non-la-mia-volonta-ma-la-tua.txt">non la mia volontà, ma la Tua</a> | <a href="archive.html#obbedienza-preghiere">obbedienza</a>
 ↳ <a href="post.html?p=prayers/piu-vicino-di-quanto-possa-immaginare.txt">più vicino di quanto possa immaginare</a> | <a href="archive.html#paura-preghiere">paura</a>
 ↳ <a href="post.html?p=prayers/appartengo-interamente-a-te.txt">appartengo interamente a Te</a> | <a href="archive.html#forza-preghiere">forza</a>
@@ -163,5 +88,7 @@
 ↳ <a href="post.html?p=prayers/sei-tutto-cio-di-cui-ho-bisogno.txt">sei tutto ciò di cui ho bisogno</a> | <a href="archive.html#forza-preghiere">forza</a>
 ↳ <a href="post.html?p=prayers/non-mi-hai-abbandonato.txt">non mi hai abbandonato</a> | <a href="archive.html#gratitudine-preghiere">gratitudine</a>
 </pre>
-  </body>
+
+<script>Soul.allPrayers();</script>
+</body>
 </html>

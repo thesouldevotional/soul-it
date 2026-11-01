@@ -1,151 +1,30 @@
 <!doctype html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8">
-    <title>soul // it — archivio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark">
-    <link rel="icon" type="image/png" href="/soul-it/soulfavicon.png" media="(prefers-color-scheme: light)">
-    <link rel="icon" type="image/png" href="/soul-it/soulfavicon_dark.png" media="(prefers-color-scheme: dark)">
-    <link rel="apple-touch-icon" sizes="180x180" href="/soul-it/apple-touch-icon.png">
+<head>
+  <meta charset="utf-8">
+  <title>soul // it · archivio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/png" href="/soul-it/soulfavicon.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="/soul-it/soulfavicon_dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" sizes="180x180" href="/soul-it/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="soul.css">
+  <script src="soul.js"></script>
+</head>
+<body>
+<main class="card list" id="card">
+<div class="banner p-tea"><span class="tag">archivio</span></div>
+<nav class="nav"><a class="chip" href="index.html">indice</a><a class="chip ghost" href="https://thesouldevotional.github.io/soul/archive.html">en</a></nav>
+<div class="ref">versetti biblici e preghiere</div>
+<h1 class="title">archivio</h1>
+<p class="note">versione bibbia: CEI 2008<br>salvo diversa indicazione, le preghiere provengono dalla <a href="https://www.youversion.com/bible-app">bible app</a> oppure sono personali e non hanno un autore specifico</p>
+<nav class="nav" style="margin:0 0 18px"><a class="chip ghost" href="all-verses-archive.html">tutti i versetti</a><a class="chip ghost" href="all-prayers-archive.html">tutte le preghiere</a><a class="chip ghost" href="all-commonplace-archive.html">citazioni</a><a class="chip ghost" href="saints.html">santi</a><a class="chip ghost" href="books-of-the-bible.html">i libri della bibbia</a></nav>
+</main>
 
-    <style>
-      :root {
-        --bg: #ffffff;
-        --fg: #111111;
-        --link: #005bff;
-
-        --mark-light: rgba(255, 241, 118, 0.9);
-        --mark-dark: rgba(255, 235, 59, 0.9);
-      }
-
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg: #000000;
-          --fg: #ffffff;
-          --link: #8fc9ed;
-        }
-      }
-
-      html, body { height: 100%; }
-      html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-
-      body {
-        margin: 0;
-        background: var(--bg);
-        color: var(--fg);
-        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
-        line-height: 1.35;
-        -webkit-font-smoothing: antialiased;
-        padding: 16px;
-      }
-
-      @media (hover: hover) and (pointer: fine) {
-        body {
-          font-size: 12.6px;
-        }
-      }
-
-      a, a:visited {
-        color: var(--link);
-        text-decoration: none;
-      }
-
-      a:hover { text-decoration: underline; }
-
-      pre {
-        margin: 0;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-      }
-
-      mark {
-        background: none;
-        color: inherit;
-        padding: 0 2px;
-        background-image: linear-gradient(
-          transparent 62%,
-          var(--mark-light) 62%
-        );
-      }
-
-      @media (prefers-color-scheme: dark) {
-        mark {
-          background: none;
-          padding: 0;
-          color: var(--fg);
-          text-decoration: underline;
-          text-decoration-thickness: 2px;
-          text-underline-offset: 0.15em;
-          text-decoration-color: var(--mark-dark);
-        }
-      }
-
-      .counter {
-        color: #767676;
-        font-size: 0.8em;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        .counter {
-          color: #999;
-        }
-      }
-
-      .cols {
-        column-count: 4;
-        column-gap: 4ch;
-        max-width: 110ch;
-      }
-
-      @media (max-width: 640px) {
-        .cols { column-count: 2; column-gap: 2ch; font-size: 0.9em; }
-      }
-
-      .cols .row {
-        display: flex;
-        justify-content: space-between;
-        gap: 1ch;
-        break-inside: avoid;
-        white-space: nowrap;
-      }
-
-      .top-link, .top-link:visited, .top-link:hover, .top-link:active {
-        color: #767676;
-        font-size: 0.8em;
-        text-decoration: underline;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        .top-link, .top-link:visited, .top-link:hover, .top-link:active {
-          color: #999;
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-<pre>
-<mark>soul // it</mark> | <a href="index.html">indice</a>
-↳ <a href="https://thesouldevotional.github.io/soul/archive.html">en</a> // it
-<span class="counter">↳ versione bibbia: CEI 2008</span>
-<span class="counter">↳ salvo diversa indicazione, le preghiere provengono dalla <a href="https://www.youversion.com/bible-app">bible app</a> oppure sono personali e non hanno un autore specifico</span>
-
-<span id="by-author"></span>↳ autore / libro <span class="counter">// <span id="books-status">…</span> libri</span>
-</pre>
-<div id="books" class="cols"><span class="counter">// libri: see below</span></div>
-<pre>
-
-<span id="by-topic"></span>↳ <a href="topics.html">argomento</a>
-
-↳ <a href="all-verses-archive.html">tutti i versetti</a>
-↳ <a href="all-prayers-archive.html">tutte le preghiere</a>
-↳ <a href="all-commonplace-archive.html">tutte le citazioni</a>
-↳ <a href="saints.html">santi</a>
-↳ <a href="books-of-the-bible.html">i libri della bibbia</a>
-
-<span class="counter">// <a href="index.html#search-input">cerca in tutti gli archivi per parola chiave</a></span>
-
+<pre id="data" hidden>
 <span id="genesi"></span>Genesi<span class="counter"> // <a href="post.html?p=what-is-it/genesis.txt">cos'è</a></span>
 ↳ <a href="post.html?p=bible/genesis_1-1-3.txt">1:1-3</a> in principio
 ↳ <a href="post.html?p=bible/genesis_1-27.txt">1:27</a> a immagine di Dio lo creò
@@ -640,10 +519,10 @@
 <span id="abitudine-di-pregare"></span>abitudine di pregare
 <span id="abitudine-di-pregare-preghiere"></span>// preghiere
 ↳ <a href="post.html?p=prayers/raccogli-la-mia-mente-dispersa.txt">raccogli la mia mente dispersa</a>
-↳ <a href="post.html?p=prayers/preghiera-della-sera.txt">preghiera della sera</a> *
-↳ <a href="post.html?p=prayers/preghiera-di-mezzogiorno-giorni-di-riposo.txt">preghiera di mezzogiorno (giorni di riposo)</a> *
-↳ <a href="post.html?p=prayers/preghiera-di-mezzogiorno-giorni-lavorativi.txt">preghiera di mezzogiorno (giorni lavorativi)</a> *
-↳ <a href="post.html?p=prayers/preghiera-del-mattino.txt">preghiera del mattino</a> *
+↳ <a href="post.html?p=prayers/preghiera-della-sera.txt">preghiera della sera</a> ✎
+↳ <a href="post.html?p=prayers/preghiera-di-mezzogiorno-giorni-di-riposo.txt">preghiera di mezzogiorno (giorni di riposo)</a> ✎
+↳ <a href="post.html?p=prayers/preghiera-di-mezzogiorno-giorni-lavorativi.txt">preghiera di mezzogiorno (giorni lavorativi)</a> ✎
+↳ <a href="post.html?p=prayers/preghiera-del-mattino.txt">preghiera del mattino</a> ✎
 <a href="#" class="top-link">[↳ top]</a>
 
 <span id="adozione-spirituale"></span>adozione spirituale
@@ -1925,32 +1804,7 @@
 ↳ <a href="post.html?p=bible/luke_6-17-49.txt">Luca 6:17-49</a> il discorso della pianura *
 <a href="#" class="top-link">[↳ top]</a>
 </pre>
-<script>
-  (function () {
-    var box = document.getElementById("books");
-    var status = document.getElementById("books-status");
-    var lines = document.body.innerHTML.split("\n");
-    var header = /^<span id="([a-z0-9-]+)"><\/span>([^<]+)<span class="counter"> \/\/ <a href="post\.html\?p=what-is-it\//;
-    var books = [];
 
-    for (var i = 0; i < lines.length; i++) {
-      var m = header.exec(lines[i]);
-      if (!m) continue;
-      var count = 0;
-      for (var j = i + 1; j < lines.length; j++) {
-        if (lines[j].indexOf('class="top-link"') !== -1) break;
-        if (lines[j].indexOf("\u21b3 <a href=\"post.html?p=") === 0) count++;
-      }
-      books.push('<div class="row"><a href="#' + m[1] + '">' + m[2].trim() +
-        '</a><span class="counter">' + count + "</span></div>");
-    }
-
-    if (books.length) {
-      box.innerHTML = books.join("");
-      status.textContent = String(books.length);
-    }
-  })();
-</script>
-  </body>
+<script>Soul.archive();</script>
+</body>
 </html>
-<a href="#" class="top-link">[↳ top]</a>

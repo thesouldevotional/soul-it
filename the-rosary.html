@@ -1,167 +1,21 @@
 <!doctype html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8">
-    <title>soul — il rosario</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark">
-    <link rel="icon" type="image/png" href="/soul/soulfavicon.png" media="(prefers-color-scheme: light)">
-    <link rel="icon" type="image/png" href="/soul/soulfavicon_dark.png" media="(prefers-color-scheme: dark)">
-    <link rel="apple-touch-icon" sizes="180x180" href="/soul/apple-touch-icon.png">
-
-    <style>
-      :root {
-        --bg: #ffffff;
-        --fg: #111111;
-        --link: #005bff;
-
-        --mark-light: rgba(255, 241, 118, 0.9);
-        --mark-dark: rgba(255, 235, 59, 0.9);
-        --quote-fg: #555;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg: #000000;
-          --fg: #ffffff;
-          --link: #8fc9ed;
-          --quote-fg: #bbb;
-        }
-      }
-
-      html, body { height: 100%; }
-      html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-
-      body {
-        margin: 0;
-        background: var(--bg);
-        color: var(--fg);
-        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
-        line-height: 1.35;
-        -webkit-font-smoothing: antialiased;
-        padding: 16px;
-        padding-bottom: 120px;
-      }
-
-      @media (hover: hover) and (pointer: fine) {
-        body {
-          font-size: 12.6px;
-        }
-      }
-
-      a, a:visited {
-        color: var(--link);
-        text-decoration: none;
-      }
-
-      a:hover { text-decoration: underline; }
-
-      pre {
-        margin: 0;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-      }
-
-      mark {
-        background: none;
-        color: inherit;
-        padding: 0 2px;
-        background-image: linear-gradient(
-          transparent 62%,
-          var(--mark-light) 62%
-        );
-      }
-
-      @media (prefers-color-scheme: dark) {
-        mark {
-          background: none;
-          padding: 0;
-          color: var(--fg);
-          text-decoration: underline;
-          text-decoration-thickness: 2px;
-          text-underline-offset: 0.15em;
-          text-decoration-color: var(--mark-dark);
-        }
-      }
-
-      .quote {
-        color: var(--quote-fg);
-      }
-
-      .counter {
-        color: #767676;
-        font-size: 0.8em;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        .counter {
-          color: #999;
-        }
-      }
-
-      main {
-        max-width: 900px;
-      }
-
-      .question {
-        margin: 48px 0;
-      }
-
-      .question-title {
-        margin: 0 0 10px 0;
-      }
-
-      .q-grid {
-        display: grid;
-        grid-template-columns: 1.2fr 1fr;
-        gap: 8px 28px;
-        align-items: start;
-      }
-
-      @media (max-width: 640px) {
-        .q-grid {
-          grid-template-columns: 1fr;
-        }
-      }
-
-      .explain {
-        margin: 0;
-      }
-
-      .verses {
-        margin: 0;
-      }
-
-      .verse-item {
-        margin: 0 0 14px 0;
-      }
-
-      .verse-item:last-child {
-        margin-bottom: 0;
-      }
-
-      .verse-quote {
-        display: block;
-        color: var(--quote-fg);
-        font-size: 0.85em;
-        margin-top: 2px;
-      }
-    
-      details { margin: 0; }
-      summary { cursor: pointer; list-style: none; color: var(--link); }
-      summary::-webkit-details-marker { display: none; }
-      summary::before { content: "+ "; }
-      details[open] > summary::before { content: "- "; }
-      .set > .body { padding: 6px 0 14px 2ch; }
-      .mys { margin: 10px 0 18px; }
-      .mys .title { font-weight: bold; }
-      .alt { margin: 6px 0 0 2ch; }
-      .alt > .body { padding: 4px 0 8px 2ch; color: var(--quote-fg); }
-      .today { color: var(--quote-fg); }
-    </style>
-  </head>
-
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>soul — il rosario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/png" href="/soul-it/soulfavicon.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="/soul-it/soulfavicon_dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" sizes="180x180" href="/soul-it/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="soul.css">
+  <script src="soul.js"></script>
+</head>
+<body>
+<div id="legacy">
 <pre>
 guida | il rosario
 ↳ <a href="index.html">torna all'indice</a>
@@ -175,19 +29,18 @@ per cominciare non serve sapere molto.
 
 dieci ave Maria di fila possono sembrare noiose. Giovanni Paolo II risponde con un'immagine presa dall'amore: chi ama dice "ti amo" tante volte, e non è mai uguale, perché il sentimento che c'è dietro è vivo. le parole restano le stesse così il cuore non deve cercarne di nuove, e può restare su di Lui.
 
-ma Gesù non dice di non ripetere le parole? in Matteo 6:7 dice: «pregando, non sprecate parole come i pagani: essi credono di venire ascoltati a forza di parole». quello che critica sono le parole vuote, accumulate per convincere Dio a forza di insistere. la ripetizione in sé non la vieta: nel Getsèmani pregò per la terza volta «ripetendo le stesse parole» (Matteo 26:44). il Salmo 136 ripete «perché il Suo amore è per sempre» ventisei volte, e in Apocalisse 4:8 gli esseri viventi «giorno e notte non cessano di ripetere: santo, santo, santo». il Catechismo (2668) dice che un nome «ripetuto spesso da un cuore umilmente attento, non si disperde in "tante parole"». il rosario diventa ripetizione vuota solo quando il cuore è altrove.
+ma Gesù non dice di non ripetere le parole? in <a href="https://thesouldevotional.github.io/soul-it/post.html?p=bible/matthew_6-1-18.txt#v7">Matteo 6:7</a> dice: «pregando, non sprecate parole come i pagani: essi credono di venire ascoltati a forza di parole». quello che critica sono le parole vuote, accumulate per convincere Dio a forza di insistere. la ripetizione in sé non la vieta: nel Getsèmani pregò per la terza volta «ripetendo le stesse parole» (<a href="https://thesouldevotional.github.io/soul-it/post.html?p=bible/matthew_26-36-46.txt#v44">Matteo 26:44</a>). il <a href="https://www.bibbiaedu.it/CEI2008/at/Sal/136/" target="_blank">Salmo 136</a> ripete «perché il Suo amore è per sempre» ventisei volte, e in <a href="https://www.bibbiaedu.it/CEI2008/nt/Ap/4/" target="_blank">Apocalisse 4:8</a> gli esseri viventi «giorno e notte non cessano di ripetere: santo, santo, santo». il Catechismo (2668) dice che un nome «ripetuto spesso da un cuore umilmente attento, non si disperde in "tante parole"». il rosario diventa ripetizione vuota solo quando il cuore è altrove.
 
 → cosa serve
 
 una corona. si può contare sulle dita, ma tenere qualcosa in mano aiuta: i grani tengono occupate le mani e dicono a che punto sei, così non devi contare.
 
-come sono disposti i grani:
-crocifisso        segno della croce, credo
-1 grano grande    padre nostro
-3 grani piccoli   ave Maria
-poi un giro di cinque decine, ognuna:
-1 grano grande    padre nostro
-10 grani piccoli  ave Maria
+la corona ha due parti:
+* un tratto corto che pende dal giro: il crocifisso, 1 grano grande, 3 grani piccoli. da qui si comincia.
+  ✝ ● ○ ○ ○
+* il giro: cinque decine, una dopo l'altra. una decina è 1 grano grande e 10 piccoli.
+  ● ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+sui grani grandi si dice un padre nostro, su quelli piccoli un'ave Maria.
 
 i grani riportano tutti al crocifisso, da cui la preghiera parte e a cui ritorna. Giovanni Paolo II ci legge un'immagine della vita cristiana: tutto parte da Cristo e riporta a Lui.
 
@@ -199,11 +52,11 @@ i grani riportano tutti al crocifisso, da cui la preghiera parte e a cui ritorna
 4. su ciascuno dei tre grani successivi, un'ave Maria.
 5. un gloria al Padre.
 6. poi, per ognuna delle cinque decine:
-   annuncia il mistero e leggi il suo brano (qui sotto)
-   un padre nostro sul grano grande
-   un'ave Maria su ciascuno dei dieci grani piccoli
-   un gloria al Padre
-   la preghiera di Fatima, se vuoi
+   ⭢ annuncia il mistero e leggi il suo brano (qui sotto)
+   ⭢ un padre nostro sul grano grande
+   ⭢ un'ave Maria su ciascuno dei dieci grani piccoli
+   ⭢ un gloria al Padre
+   ⭢ la preghiera di Fatima, se vuoi
 7. dopo la quinta decina, la salve regina e la preghiera finale, poi il segno della croce.
 
 → ogni decina, con calma
@@ -218,10 +71,10 @@ i passi qui sopra sono solo la cornice. la preghiera vera succede dentro ogni de
 
 → i misteri e i loro giorni
 
-lunedì, sabato       gioia
-martedì, venerdì     dolore
-mercoledì, domenica  gloria
-giovedì              luce
+⭢ lunedì, sabato       gioia
+⭢ martedì, venerdì     dolore
+⭢ mercoledì, domenica  gloria
+⭢ giovedì              luce
 
 nelle domeniche di Avvento molti pregano i misteri della gioia, nelle domeniche di Quaresima quelli del dolore. i misteri di oggi sono segnati qui sotto. ogni mistero ha un breve brano della Scrittura (quelli proposti dai vescovi statunitensi) e la grazia da chiedere.
 
@@ -527,7 +380,11 @@ o Dio, che a santa Rita Ti degnasti infondere tanta grazia ad amare gli stessi n
 
 → perché Maria
 
-l'ave Maria è fatta di Scrittura. la prima metà unisce due saluti del Vangelo di Luca: quello dell'angelo Gabriele, «rallégrati, piena di grazia: il Signore è con te» (Luca 1:28), e quello di Elisabetta, «benedetta tu fra le donne e benedetto il frutto del tuo grembo!» (Luca 1:42). l'angelo è solo un messaggero, quindi il primo saluto in realtà è di Dio. la seconda metà chiede a Maria di pregare per noi. lei non è il punto d'arrivo: il nome al centro della preghiera è Gesù, e ogni scena del rosario è una scena della Sua vita.
+il rosario parla di Gesù, non di Maria. l'ave Maria è fatta quasi tutta di Scrittura:
+* "ave, o Maria, piena di grazia, il Signore è con te" è il saluto dell'angelo Gabriele (<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/1/" target="_blank">Luca 1:28</a>). l'angelo porta solo il messaggio di Dio, quindi è Dio il primo a salutarla.
+* "tu sei benedetta fra le donne e benedetto è il frutto del tuo seno" è quello che le dice Elisabetta (<a href="https://www.bibbiaedu.it/CEI2008/nt/Lc/1/" target="_blank">Luca 1:42</a>).
+* "santa Maria, madre di Dio, prega per noi peccatori" è la parte che non viene dalla Bibbia: le chiediamo di pregare per noi, come si chiede a un amico.
+non è lei il punto d'arrivo della preghiera. il nome che sta al centro è Gesù, e ogni scena del rosario è una scena della Sua vita.
 
 → le preghiere
 
@@ -571,12 +428,14 @@ preghiamo. o Dio, il Tuo unico Figlio ci ha acquistato con la Sua vita, morte e 
 <span class="counter">↳ fonte: <a href="https://www.usccb.org/how-to-pray-the-rosary" target="_blank">usccb, how to pray the rosary</a></span>
 <span class="counter">↳ fonte: <a href="https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_it.html" target="_blank">compendio del catechismo, preghiere comuni</a></span>
 </pre>
+</div>
 <script>
   (function () {
     var d = {0:"glorious",1:"joyful",2:"sorrowful",3:"glorious",4:"luminous",5:"sorrowful",6:"joyful"}[new Date().getDay()];
     var s = document.querySelector('details[data-set="' + d + '"]');
-    if (s) { s.querySelector('.today').textContent = ' (oggi)'; }
+    if (s) { s.querySelector('.today').textContent = ' · oggi'; }
   })();
 </script>
-  </body>
+<script>Soul.legacy({ label: 'guida', pal: 'dawn', ref: 'guida' });</script>
+</body>
 </html>
