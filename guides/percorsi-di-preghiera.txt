@@ -15,4 +15,4 @@ guida | percorsi di preghiera
     ↳ [quando arriva la fame](post.html?p=prayers/quando-arriva-la-fame.txt)
     ↳ [alla fine del digiuno](post.html?p=prayers/alla-fine-del-digiuno.txt)
   → mente distratta
-    ↳ [raccogli la mia mente dispersa](post.html?p=prayers/raccogli-la-mia-mente-dispersa.txt)
+    ↳ [raccogli la mia mente dispersa](post.html?p=prayers/raccogli-la-mia-mente-dispersa.txt) ☆
