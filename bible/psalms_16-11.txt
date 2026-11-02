@@ -19,5 +19,5 @@ la gioia non è una prestazione; è presenza.
 
 > leggi [un altro](post.html?p=bible/psalms_25-4-5.txt)
 
-~ ↳ capsula di pensiero | [2026-05-24](https://ivana-rep.github.io/thoughtcapsules/post.html?p=2026/20260524.txt) | Still a performance
-~ ↳ capsula di pensiero | [2026-06-01](https://ivana-rep.github.io/thoughtcapsules/post.html?p=2026/20260601.txt) | Once
+~ ↳ capsula di pensiero | [2026-05-24](https://thinkingcapsules.github.io/post.html?p=2026/20260524.txt) | Still a performance
+~ ↳ capsula di pensiero | [2026-06-01](https://thinkingcapsules.github.io/post.html?p=2026/20260601.txt) | Once

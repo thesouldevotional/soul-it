@@ -21,5 +21,5 @@ la fiamma non ti potrà bruciare,
 
 > leggi [un altro](post.html?p=bible/colossians_3-1-2.txt)
 
-~ ↳ capsula di pensiero | [2026-06-10](https://ivana-rep.github.io/thoughtcapsules/post.html?p=2026/20260610.txt) | Air and tungsten
-~ ↳ capsula di pensiero | [2026-06-18](https://ivana-rep.github.io/thoughtcapsules/post.html?p=2026/20260618.txt) | Resilience
+~ ↳ capsula di pensiero | [2026-06-10](https://thinkingcapsules.github.io/post.html?p=2026/20260610.txt) | Air and tungsten
+~ ↳ capsula di pensiero | [2026-06-18](https://thinkingcapsules.github.io/post.html?p=2026/20260618.txt) | Resilience
