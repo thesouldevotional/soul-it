@@ -7,7 +7,7 @@ santo | Francesco d'Assisi
 ↳ bio
 giorno della festa: 4 ottobre
 1181 | nasce ad Assisi da un ricco mercante di tessuti — cresce nell'agiatezza prima della Sua conversione
-1205 | sente Cristo parlarGli dal crocifisso di San Damiano ("ripara la mia chiesa") — il punto di svolta verso la povertà radicale
+1205 | sente Cristo parlarGli dal crocifisso di San Damiano ("ripara la Mia chiesa") — il punto di svolta verso la povertà radicale
 1209 | fonda l'Ordine dei Frati Minori, dando forma a una vita di povertà e predicazione
 1212 | [Chiara d'Assisi](post.html?p=saints/chiara-d-assisi.txt) si unisce al Suo stile di vita, fondando le Clarisse — il Suo messaggio raggiunge anche le donne
 1219 | attraversa l'Egitto durante le Crociate per incontrare il sultano al-Kamil — un raro atto di pacificazione interreligiosa
@@ -18,7 +18,7 @@ giorno della festa: 4 ottobre
 1228 | è canonizzato da Papa Gregorio IX, solo due anni dopo la morte
 
 ↳ citazioni
-\ altissimo, onnipotente, buon Signore, tue sono le lodi, la gloria e l'onore e ogni benedizione.
+\ Altissimo, Onnipotente, buon Signore, Tue sono le lodi, la gloria e l'onore e ogni benedizione.
 ~ — Cantico delle creature
 
 \ così sublime è l'amore di Dio, che solo raramente e in caso di grande necessità deve essere nominato.
@@ -42,7 +42,7 @@ bella lezione, non tanto di umiltà quanto di realismo. a noi che citiamo l'amor
 
 ↳ connessioni
 ↳ versetto: [Matteo 19:16-30](post.html?p=bible/matthew_19-16-30.txt) — tutto è possibile presso Dio *
-↳ versetto: [Numeri 6:24-26](post.html?p=bible/numbers_6-24-26.txt) — il signore ti benedica e ti protegga
+↳ versetto: [Numeri 6:24-26](post.html?p=bible/numbers_6-24-26.txt) — il Signore ti benedica e ti protegga *
 ↳ versetto: [Luca 12:13-21](post.html?p=bible/luke_12-13-21.txt) — il ricco stolto *
 ↳ versetto: [Giovanni 20:19](post.html?p=bible/john_20-19.txt) — pace a voi
 ↳ versetto: [Giovanni 14:21-27](post.html?p=bible/john_14-21-27.txt) — la pace come dono *
@@ -58,6 +58,6 @@ bella lezione, non tanto di umiltà quanto di realismo. a noi che citiamo l'amor
 ↳ preghiera: [custodisci il mio cuore](post.html?p=prayers/custodisci-il-mio-cuore.txt)
 ↳ preghiera: [che la mia vita sia un canto di lode](post.html?p=prayers/che-la-mia-vita-sia-un-canto-di-lode.txt)
 ↳ preghiera: [grazie, Dio](post.html?p=prayers/grazie-dio.txt)
-↳ preghiera: [ti loderò](post.html?p=prayers/ti-lodero.txt)
+↳ preghiera: [Ti loderò](post.html?p=prayers/ti-lodero.txt)
 ↳ commonplace: [differenza tra mite e umile](post.html?p=commonplace/differenza-tra-mite-e-umile.txt)
 ↳ commonplace: [contento di quello che dispone Dio](post.html?p=commonplace/contento-di-quello-che-dispone-dio.txt)

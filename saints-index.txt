@@ -36,7 +36,7 @@ capsules: —
 
 francesco-d-assisi | Francesco d'Assisi | feast: 4 ottobre
 themes: semplicità e minimalismo, povertà, natura/creato come riflesso di Dio, pace, sottrazione, eredità (Clarisse, tradizione del presepe, Cantico delle creature)
-verses: Matteo 19:16-30 (tutto è possibile presso Dio) | Numeri 6:24-26 (il signore ti benedica e ti protegga) | Luca 12:13-21 (il ricco stolto) | Giovanni 20:19 (pace a voi) | Giovanni 14:21-27 (la pace come dono) | Salmi 40:4 (un canto nuovo) | Matteo 5:1-7:29 (il discorso della montagna) | 2 Tessalonicesi 3:16 (il Signore sia con voi) | Salmi 113:3 (sia lodato il Signore) | Salmi 28:7 (mia forza e mio scudo) | Filippesi 3:7-11 (conoscere Cristo) | Genesi 2:9 (doni dal suolo) | Salmi 145:9 (buono è il Signore verso tutti)
+verses: Matteo 19:16-30 (tutto è possibile presso Dio) | Numeri 6:24-26 (il Signore ti benedica e ti protegga) | Luca 12:13-21 (il ricco stolto) | Giovanni 20:19 (pace a voi) | Giovanni 14:21-27 (la pace come dono) | Salmi 40:4 (un canto nuovo) | Matteo 5:1-7:29 (il discorso della montagna) | 2 Tessalonicesi 3:16 (il Signore sia con voi) | Salmi 113:3 (sia lodato il Signore) | Salmi 28:7 (mia forza e mio scudo) | Filippesi 3:7-11 (conoscere Cristo) | Genesi 2:9 (doni dal suolo) | Salmi 145:9 (buono è il Signore verso tutti)
 prayers: custodisci il mio cuore | che la mia vita sia un canto di lode | grazie, Dio | ti loderò
 capsules: 2026-06-09 Enough | 2026-05-12 Subtraction | 2026-03-31 Form, not constraint | 2026-03-22 Smaller patch | 2026-03-09 Gratitude as act | 2026-02-11 Complicating water
 

@@ -27,7 +27,7 @@ giorno della festa: 28 agosto
 \ non uscire fuori di te, rientra in te stesso: nell'uomo interiore abita la verità.
 ~ — La vera religione
 
-\ se lo comprendi, non è Dio.
+\ se Lo comprendi, non è Dio.
 ~ — Sermone 117 ("si enim comprehendis, non est Deus")
 
 \ quando uscite, andate insieme ed insieme rimanete quando sarete giunti a destinazione.
@@ -75,7 +75,7 @@ giorno della festa: 28 agosto
 ↳ versetto: [1 Pietro 4:1-5](post.html?p=bible/1-peter_4-1-5.txt) — i credenti desiderano fare la volontà di Dio
 ↳ versetto: [Giosuè 24:15](post.html?p=bible/joshua_24-15.txt) — serviremo il Signore
 ↳ versetto: [1 Pietro 1:14-16](post.html?p=bible/1-peter_1-14-16.txt) — non tornare indietro
-↳ preghiera: [cercarti, trovarti](post.html?p=prayers/cercarti-trovarti.txt)
+↳ preghiera: [cercarTi, trovarTi](post.html?p=prayers/cercarti-trovarti.txt)
 ↳ preghiera: [con me e dentro di me](post.html?p=prayers/con-me-e-dentro-di-me.txt)
 ↳ preghiera: [forma qualcosa in me](post.html?p=prayers/forma-qualcosa-in-me.txt)
 ↳ preghiera: [non posso guarire me stessa](post.html?p=prayers/non-posso-guarire-me-stessa.txt)
