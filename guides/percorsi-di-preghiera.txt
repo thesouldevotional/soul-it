@@ -8,6 +8,7 @@ guida | percorsi di preghiera
     ↳ [mezzogiorno (giorni lavorativi)](post.html?p=prayers/preghiera-di-mezzogiorno-giorni-lavorativi.txt) ✎
     ↳ [mezzogiorno (giorni di riposo)](post.html?p=prayers/preghiera-di-mezzogiorno-giorni-di-riposo.txt) ✎
     ↳ [preghiera della sera](post.html?p=prayers/preghiera-della-sera.txt) ✎
+    ↳ [preghiera della sera (2)](post.html?p=prayers/preghiera-della-sera-2.txt) ☆
 → per momenti specifici
   → se vuoi digiunare
     ↳ [cos'è il digiuno e perché aiuta](post.html?p=guides/digiuno.txt)
